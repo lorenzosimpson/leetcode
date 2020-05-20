@@ -3,7 +3,6 @@ var addBinary = function(a, b) {
     // fill the shorter string with leading zeroes to match the second
     a.length > b.length ? b = b.padStart(max, '0') : a = a.padStart(max, '0')
     
-    
     let carry = 0;
     let result = ''
     
