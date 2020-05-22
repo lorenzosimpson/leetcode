@@ -28,7 +28,7 @@ var search = function(nums, target) {
     while (low <= high) {
         mid = Math.floor((high - low / 2))
        
-      if (nums[mid] === target) return nums.indexOf(target);
+      if (nums[mid] === target) return mid;
         
       else if (target < nums[mid]) {
         // run binary search on the lower half
